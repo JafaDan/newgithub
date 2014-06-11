@@ -1,0 +1,67 @@
+body {
+background: #101010 no-repeat top left url("back.png");
+background-size: 100%;
+color: #fff;
+font-family: 'Noto Sans', sans-serif;
+font-size: 16px;
+margin: auto;
+min-width: 1050px;
+}
+
+.header {
+background: #fff no-repeat top center url("gridteamrus.png");
+font-family: 'Poller One', cursive;
+color: #fff;
+height: 400px;
+}
+
+.menu {
+background: #070707 repeat-x top url(menu.png);
+text-align: center;
+}
+
+.menu a {
+display: inline-block;
+background: #111;
+border-right: 3px solid #070707;
+border-left: 3px solid #070707;
+font-size: 1.4em;
+color: #aaa;
+text-decoration: none;
+padding: 20px 30px 20px 30px;
+transition: all 0.2s linear 0s;
+}
+
+.menu a:hover {
+background: #222222;
+color: #fff;
+padding: 20px 40px 20px 40px;
+}
+
+.main {
+padding: 40px;
+overflow: visible;
+border-top: 1px solid #222;
+}
+
+.home {
+width: 64px;
+height: 64px;
+background: url("home.png");
+transition: all 0.3s linear 0s;
+}
+
+.home:hover {
+background: url("home_hover.png");
+}
+
+.user{
+width: 64px;
+height: 64px;
+background: url("user.png");
+transition: all 0.3s linear 0s;
+}
+
+.user:hover {
+background: url("user_hover.png");
+}
